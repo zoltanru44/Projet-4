@@ -692,6 +692,8 @@ p {
 
 .cta-hero {
     margin-top: 22px;
+    margin-right: 0;
+    /*SEO Add*/
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
@@ -1039,4 +1041,26 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+
+/*Style add after SEO Check*/
+
+.keywords {
+    color: #cccccc;
+    font-size: 1px;
+}
+
+.navbar-brand {
+    height: 40px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.Section_2_text_1 {
+    font-size: 1.6em;
+    max-width: 613px;
+    margin: auto;
 }
