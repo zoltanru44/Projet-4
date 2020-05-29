@@ -1107,3 +1107,7 @@ blockquote {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.footer__link--hidden {
+    display: none;
+}
