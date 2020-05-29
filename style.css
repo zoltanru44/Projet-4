@@ -294,7 +294,7 @@ a:hover {
 
 .navbar-brand {
     height: auto;
-    padding: 3px 15px;
+    padding: 0;
     font-size: 25px;
     font-weight: normal;
     font-weight: 600;
@@ -532,7 +532,9 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
@@ -651,7 +653,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #313131!important;
 }
 
 .container {
@@ -777,16 +779,16 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #008C7E;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: rgb(1, 109, 98)!important;
     color: #FFFFFF!important;
 }
 
@@ -803,7 +805,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #9b6044!important;
 }
 
 .icon-dark-slate-blue {
@@ -820,11 +822,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere-optimized.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation-optimized.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1046,21 +1048,62 @@ h4 {
 
 /*Style add after SEO Check*/
 
+img {
+    height: 100%;
+    margin: 0;
+}
+
 .keywords {
     color: #cccccc;
     font-size: 1px;
 }
 
 .navbar-brand {
-    height: 40px;
+    height: 50px;
 }
 
 .logo {
     width: 100px;
+    height: 100%;
+    border: 2px solid rgb(163, 158, 158);
+    border-radius: 50%;
 }
 
-.Section_2_text_1 {
+.section_2_text_1 {
     font-size: 1.6em;
     max-width: 613px;
     margin: auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+blockquote {
+    padding: 10px;
+    border: none;
+}
+
+.citation {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.citation_reference {
+    font-weight: 0.9em;
+}
+
+.citation_reference::before {
+    content: "";
+}
+
+.title_portfolio {
+    font-size: 1.6em;
+}
+
+#bottom_text {
+    color: rgb(253, 253, 253) !important;
+}
+
+.social_logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
