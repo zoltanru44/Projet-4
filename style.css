@@ -1087,10 +1087,6 @@ blockquote {
     font-style: italic;
 }
 
-.citation_reference {
-    font-weight: 0.9em;
-}
-
 .citation_reference::before {
     content: "";
 }
