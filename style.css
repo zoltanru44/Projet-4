@@ -1111,6 +1111,14 @@ blockquote {
     font-size: 1.3em;
 }
 
-.no_type_type {
+.annuaire {
     list-style-type: none;
+}
+
+.hover_grey:hover {
+    color: rgb(189, 189, 189) !important;
+}
+
+.no_padding {
+    padding: 0;
 }
