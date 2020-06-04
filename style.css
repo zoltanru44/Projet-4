@@ -1110,3 +1110,7 @@ blockquote {
 .h2_modified {
     font-size: 1.3em;
 }
+
+.no_type_type {
+    list-style-type: none;
+}
