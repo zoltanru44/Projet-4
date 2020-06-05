@@ -1117,6 +1117,7 @@ blockquote {
 
 .hover_grey:hover {
     color: rgb(189, 189, 189) !important;
+    text-decoration: underline;
 }
 
 .no_padding {
